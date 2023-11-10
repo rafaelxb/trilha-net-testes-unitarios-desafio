@@ -1,5 +1,17 @@
 # DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
+
+## Resolução do Desafio
+
+Abaixo há uma descrição detalhada do desafio, porém, o desafio tinha como objetivo realizar a correção dos testes de unidade presentes no projeto. Para resolução, foram corrigidos os seguintes testes:
+
+- NaoDeveConterONumero10NaLista() -> Acrescentada a chamado do método e o Assert;
+- DeveMultiplicarOsElementosDaListaPor2 -> Acrescentada a notação [Fact] e o Assert;
+- DeveRetornar9ComoMaiorNumeroDaLista() -> Acrescentada a chamada do método e corrigido o Assert;
+- DeveRetornarOitoNegativoComoMenorNumeroDaLista() -> Corrigido o Assert;
+- DeveRetornar6QuantidadeCaracteresDaPalavraMatrix() -> Corrigida a entrada de informações das variaveis usadas nos testes;
+- DeveContemAPalavraQualquerNoTexto() -> Corrigida a chamada do método e o Assert;
+- NaoDeveConterAPalavraTesteNoTexto() -> Corrigido o Assert;
+- TextoDeveTerminarComAPalavraProcurado() -> Acrescentada a notação [Fact] e corrigida uma das variaveis usadas no teste.
 
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
